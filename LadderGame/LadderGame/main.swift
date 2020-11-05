@@ -7,7 +7,7 @@
 
 import Foundation
 
-
+// error handling
 enum LadderError : Error {
     case invalidNum
 }
@@ -24,8 +24,6 @@ func inputHeadcount () throws -> Int{
     return headcount
 }
 
-
-
 // 사다리 랜덤 다리 및 출력 함수
 func printLadder (headcount : Int, height : Int = 4) {
     var ladderArray = Array(repeating:Array(repeating: "", count: headcount - 1), count: height)
@@ -41,7 +39,7 @@ func printLadder (headcount : Int, height : Int = 4) {
     }
 }
 
-// error handling check
+// error handling & play game
 do {
     let numOfPpl : Int = try inputHeadcount()
     printLadder(headcount: numOfPpl)
