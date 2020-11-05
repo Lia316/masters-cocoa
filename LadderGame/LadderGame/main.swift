@@ -18,7 +18,7 @@ func inputHeadcount () throws -> Int{
     print("사다리 게임에 참여할 인원을 입력하세요 :")
     var headcount = Int(readLine()!)!
     print(headcount)
-    guard (headcount > 2 && headcount < 8) else {
+    guard (headcount >= 2 && headcount <= 8) else {
         throw LadderError.invalidNum
     }
     
