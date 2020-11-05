@@ -17,11 +17,10 @@ func inputHeadcount () throws -> Int{
     
     print("사다리 게임에 참여할 인원을 입력하세요 :")
     var headcount = Int(readLine()!)!
- //   print(headcount)
+
     guard (headcount >= 2 && headcount <= 8) else {
         throw LadderError.invalidNum
     }
-    
     return headcount
 }
 
@@ -30,6 +29,7 @@ func inputHeadcount () throws -> Int{
 // 사다리 랜덤 다리 및 출력 함수
 func printLadder (headcount : Int, height : Int = 4) {
     var ladderArray = Array(repeating:Array(repeating: "", count: headcount - 1), count: height)
+    
     for row in 0..<height {
         print("|", terminator : "")
         for column in 0..<headcount - 1 {
@@ -44,13 +44,9 @@ func printLadder (headcount : Int, height : Int = 4) {
 // error handling check
 do {
     let numOfPpl : Int = try inputHeadcount()
-//    print(numOfPpl)
     printLadder(headcount: numOfPpl)
 } catch LadderError.invalidNum {
-//    print ("error")
+    print ("error")
     exit(0)
 }
-// exit(0) check
-//print (" 왜 안 되지")
-
 
