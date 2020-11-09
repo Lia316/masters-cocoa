@@ -19,9 +19,11 @@ import Foundation
 //print(IDValidator(ID: "1ERWEA-ewr13"))
 //print(IDValidator(ID: "1#dfsw"))
 
-print(passwordValidator(password: "123423"))
-print(passwordValidator(password: "sdfagr"))
-print(passwordValidator(password: "fd5gdtyj"))
-print(passwordValidator(password: "!de3fwee54y"))
-print(passwordValidator(password: "!!!!!!!!!"))
-print(passwordValidator(password: "23egr"))
+//print(passwordValidator(password: "123423"))        //1
+//print(passwordValidator(password: "sdfagr"))        //2
+//print(passwordValidator(password: "fd5gdtyj"))      //4
+//print(passwordValidator(password: "!de3fwee54y"))   //5
+//print(passwordValidator(password: "!!!!!!!!!"))     //3
+//print(passwordValidator(password: "23egr"))         //3
+
+print(residentNum())
