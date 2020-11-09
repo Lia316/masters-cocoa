@@ -12,6 +12,7 @@
 		AE1FC360255907C8001EC72B /* P1.m2 - setBoolArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE1FC35F255907C8001EC72B /* P1.m2 - setBoolArray.swift */; };
 		AE1FC36325590F89001EC72B /* P1.m3 - magicSquare.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE1FC36225590F89001EC72B /* P1.m3 - magicSquare.swift */; };
 		AE1FC36625594BB5001EC72B /* P2 - IDValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE1FC36525594BB5001EC72B /* P2 - IDValidator.swift */; };
+		AE1FC36925598241001EC72B /* P3 - passwordValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE1FC36825598241001EC72B /* P3 - passwordValidator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -33,6 +34,7 @@
 		AE1FC35F255907C8001EC72B /* P1.m2 - setBoolArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "P1.m2 - setBoolArray.swift"; sourceTree = "<group>"; };
 		AE1FC36225590F89001EC72B /* P1.m3 - magicSquare.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "P1.m3 - magicSquare.swift"; sourceTree = "<group>"; };
 		AE1FC36525594BB5001EC72B /* P2 - IDValidator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "P2 - IDValidator.swift"; sourceTree = "<group>"; };
+		AE1FC36825598241001EC72B /* P3 - passwordValidator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "P3 - passwordValidator.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +72,7 @@
 				AE1FC35F255907C8001EC72B /* P1.m2 - setBoolArray.swift */,
 				AE1FC36225590F89001EC72B /* P1.m3 - magicSquare.swift */,
 				AE1FC36525594BB5001EC72B /* P2 - IDValidator.swift */,
+				AE1FC36825598241001EC72B /* P3 - passwordValidator.swift */,
 			);
 			path = "week 2-1";
 			sourceTree = "<group>";
@@ -131,6 +134,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AE1FC36925598241001EC72B /* P3 - passwordValidator.swift in Sources */,
 				AE1FC36625594BB5001EC72B /* P2 - IDValidator.swift in Sources */,
 				AE1FC3552558D14F001EC72B /* main.swift in Sources */,
 				AE1FC35D2558D22E001EC72B /* P1.m1 - array practice.swift in Sources */,
