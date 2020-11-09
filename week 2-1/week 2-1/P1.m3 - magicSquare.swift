@@ -17,6 +17,7 @@ func makeMagicSquare(squareNum:Int) -> Array<Array<Int>> {
     for index in 1...(squareNum * squareNum) {
         magicSqure[position.row][position.column] = index
         
+        // 극단값: 배열 범위를 넘어가는 경우 케이스 별로
         if (position.row == 0 || position.column == (squareNum - 1)){
             switch position {
             case (0, squareNum - 1):
@@ -32,6 +33,7 @@ func makeMagicSquare(squareNum:Int) -> Array<Array<Int>> {
             }
         }
         
+        // 내부값: 대각선 방향에 값이 있는 경우 & 없는 경우
         else {
             if (magicSqure[position.row - 1][position.column + 1] == 0){
                 position.row -= 1
@@ -45,6 +47,8 @@ func makeMagicSquare(squareNum:Int) -> Array<Array<Int>> {
     return magicSqure
 }
 
+
+// print
 func printMagicSquare(arr: Array<Array<Int>>){
     let squareNum = arr.count
     for row in 0..<squareNum {
