@@ -10,3 +10,4 @@ import Foundation
 var myArray = ArrayPractice()
 myArray.printArray(array: myArray.fillArray())
 
+printArray(array: setBoolArray(), newChar: "$")
