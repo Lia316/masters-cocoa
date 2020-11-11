@@ -14,11 +14,24 @@ func testInterest(unitDay : Int) -> Double{
     return test.calculateAmount(day: unitDay, amount: money)
 }
 
-for day in stride(from: 10, to: 366, by: 10){
-        print("예치일:\(day)   \(testInterest(unitDay: day))")
+//for day in stride(from: 10, to: 366, by: 10){
+//        print("예치일:\(day)   \(testInterest(unitDay: day))")
+//}
+
+// 숫자야구 게임 실행 함수
+func playBullsCows() {
+    var testGame = BullsAndCows()
+
+    testGame.newGame()
+    print(testGame.baseballNum)
+    
+    while(testGame.strikeNum < 3){
+        print("hit number: ")
+        let hitInput = Int(readLine()!) ?? 0
+        print(testGame.hit(num: hitInput))
+        print(testGame.showGameScore())
+    }
+    
 }
 
-var some = BullsAndCows()
-
-some.newGame()
-print(some.baseballNum)
+playBullsCows()
