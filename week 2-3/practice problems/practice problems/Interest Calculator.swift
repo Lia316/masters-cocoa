@@ -22,13 +22,13 @@ struct InterestCalculator {
         
         switch byDay {
         case 1...90:
-            interestRate = 0.5
+            interestRate = 0.5 * Double(byDay)/365
         case 91...180:
-            interestRate = 1
+            interestRate = Double(byDay - 90)/365 + (0.5 * 90 / 365)
         case 181...364:
-            interestRate = 2
+            interestRate = 2 * Double(byDay - 180)/365 + (1.5 * 90 / 365)
         case 365...:
-            interestRate = 5.6
+            interestRate = 5.6 * Double(byDay - 364)/365 + (1.5 * 90 / 365) + (2 * 184 / 365)
         default:
             break
         }
@@ -38,7 +38,7 @@ struct InterestCalculator {
     
     // 예치 계산 금액을 계산해서 리턴하는 메서드
     func calculateAmount(day:Int, amount:Int) -> Double{
-        return (Double(amount) * (100.0 + getInterestRate(byDay: day)))/100
+        return (Double(amount) * (getInterestRate(byDay: day) + 100))/100
         }
 }
 
