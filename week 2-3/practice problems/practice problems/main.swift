@@ -13,7 +13,7 @@ func testInterest(unitDay : Int) -> Double{
     let test = InterestCalculator(day: unitDay, amount: money)
     return test.calculateAmount(day: unitDay, amount: money)
 }
-
+//
 //for day in stride(from: 10, to: 366, by: 10){
 //        print("예치일:\(day)   \(testInterest(unitDay: day))")
 //}
