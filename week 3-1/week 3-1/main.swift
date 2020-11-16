@@ -16,7 +16,7 @@ import Foundation
 //print(test1.value)
 //print(test1.find(by: 3))
 
-let testA = [7, 4, 5, 1, 3]
-let testB = [5, 1, 6, 2, 4, 3]
-print(BubbleSort(numbers: testA).sorted(isAscending: false))
+//let testA = [7, 4, 5, 1, 3]
+//let testB = [5, 1, 6, 2, 4, 3]
+//print(BubbleSort(numbers: testA).sorted(isAscending: false))
 
