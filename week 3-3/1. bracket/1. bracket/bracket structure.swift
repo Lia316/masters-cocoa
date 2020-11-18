@@ -56,7 +56,7 @@ struct ValidMatch {
         // 닫힌 괄호(>) 가 열린 괄호 (<) 보다 많은 경우
         for index in 0..<valueArr.count{
             if(valueArr[index] == 1) {countLeft += 1}
-            if(countLeft < index + 1 - countLeft) {return false}
+            if(countLeft < index + 1 - countLeft) { return false }
         }
         return true
     }
