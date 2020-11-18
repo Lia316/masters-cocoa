@@ -22,7 +22,7 @@ struct ValidMatch {
         left = String(bracket[bracket.startIndex])
         right = String(bracket[bracket.index(before: bracket.endIndex)])
     }
-    
+    // 숫자 <-> bracket 변환 함수
     func converter(with numbers: String, type: Bool) -> String{
         var some : String
         if(type){ some = numbers.map{$0 == "1" ? left : right }.joined() }
