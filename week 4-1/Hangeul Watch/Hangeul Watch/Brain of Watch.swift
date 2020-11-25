@@ -2,7 +2,7 @@
 //  Brain of Watch.swift
 //  Hangeul Watch
 //
-//  Created by 김지경 on 2020/11/23.
+//  Created by Lia on 2020/11/23.
 //
 
 import Foundation
@@ -31,7 +31,7 @@ class WatchBrain {
     }
     
     func convertString() {
-        let noon = time.hour < 11 ? "오전" : "오후"
+        let noon = time.hour <= 11 ? "오전" : "오후"
         let hours = time.hour <= 12 ? hangeulNum[time.0]! : hangeulNum[time.0 - 12]!
         let minutes = chineaseConverter(num: time.minute)
         let seconds = chineaseConverter(num: time.second)
