@@ -19,7 +19,7 @@ class CSVfile {
         
         do {
             let filePath = url.appendingPathComponent(fileName)
-            let read = try String(contentsOf: filePath, encoding: .utf8)
+            let read = try String(contentsOf: filePath)
             let lines = read.components(separatedBy: "\n")
             
             for index in 1..<lines.count {
