@@ -7,15 +7,36 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AE1DB30A2578CFA1005E4790 /* Bazzi OTF.otf in Resources */ = {isa = PBXBuildFile; fileRef = AE1DB3092578CFA1005E4790 /* Bazzi OTF.otf */; };
+		AE1DB30D2578CFF5005E4790 /* Recipekorea 레코체 FONT.otf in Resources */ = {isa = PBXBuildFile; fileRef = AE1DB30C2578CFF5005E4790 /* Recipekorea 레코체 FONT.otf */; };
+		AE1DB31325796B47005E4790 /* 너무 늦게 냈어.png in Resources */ = {isa = PBXBuildFile; fileRef = AE1DB31225796B47005E4790 /* 너무 늦게 냈어.png */; };
+		AE1DB31625796CA0005E4790 /* 너무 일찍 냈어.png in Resources */ = {isa = PBXBuildFile; fileRef = AE1DB31525796C9F005E4790 /* 너무 일찍 냈어.png */; };
+		AE1DB31925796CA7005E4790 /* 다시.png in Resources */ = {isa = PBXBuildFile; fileRef = AE1DB31825796CA7005E4790 /* 다시.png */; };
+		AE1DB31D257990D1005E4790 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE1DB31C257990D1005E4790 /* MenuViewController.swift */; };
 		AE2DA3712574C17300AC516B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE2DA3702574C17300AC516B /* AppDelegate.swift */; };
 		AE2DA3732574C17300AC516B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE2DA3722574C17300AC516B /* SceneDelegate.swift */; };
 		AE2DA3752574C17300AC516B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE2DA3742574C17300AC516B /* ViewController.swift */; };
 		AE2DA3782574C17300AC516B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE2DA3762574C17300AC516B /* Main.storyboard */; };
 		AE2DA37A2574C17400AC516B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE2DA3792574C17400AC516B /* Assets.xcassets */; };
 		AE2DA37D2574C17400AC516B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE2DA37B2574C17400AC516B /* LaunchScreen.storyboard */; };
+		AE2DA3862574CAFC00AC516B /* Brain of RPC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE2DA3852574CAFC00AC516B /* Brain of RPC.swift */; };
+		AE974B0B25788D7100B5A5DE /* READY?.png in Resources */ = {isa = PBXBuildFile; fileRef = AE974B0A25788D7100B5A5DE /* READY?.png */; };
+		AE974B102578954300B5A5DE /* ready?!.png in Resources */ = {isa = PBXBuildFile; fileRef = AE974B0F2578954300B5A5DE /* ready?!.png */; };
+		AE974B23257897E000B5A5DE /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = AE974B21257897DF00B5A5DE /* 1.png */; };
+		AE974B28257897EE00B5A5DE /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = AE974B27257897EE00B5A5DE /* 2.png */; };
+		AE974B2B2578983000B5A5DE /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = AE974B2A2578983000B5A5DE /* 3.png */; };
+		AE974B372578AC3C00B5A5DE /* 종료!.png in Resources */ = {isa = PBXBuildFile; fileRef = AE974B362578AC3C00B5A5DE /* 종료!.png */; };
+		AE974B3E2578AED100B5A5DE /* ready.png in Resources */ = {isa = PBXBuildFile; fileRef = AE974B3D2578AED100B5A5DE /* ready.png */; };
+		AE974B412578CE1600B5A5DE /* 경기천년제목OTF_Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = AE974B402578CE1600B5A5DE /* 경기천년제목OTF_Medium.otf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AE1DB3092578CFA1005E4790 /* Bazzi OTF.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Bazzi OTF.otf"; sourceTree = "<group>"; };
+		AE1DB30C2578CFF5005E4790 /* Recipekorea 레코체 FONT.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Recipekorea 레코체 FONT.otf"; sourceTree = "<group>"; };
+		AE1DB31225796B47005E4790 /* 너무 늦게 냈어.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "너무 늦게 냈어.png"; sourceTree = "<group>"; };
+		AE1DB31525796C9F005E4790 /* 너무 일찍 냈어.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "너무 일찍 냈어.png"; sourceTree = "<group>"; };
+		AE1DB31825796CA7005E4790 /* 다시.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "다시.png"; sourceTree = "<group>"; };
+		AE1DB31C257990D1005E4790 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
 		AE2DA36D2574C17300AC516B /* Rock Paper Scissors.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Rock Paper Scissors.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE2DA3702574C17300AC516B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AE2DA3722574C17300AC516B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +45,15 @@
 		AE2DA3792574C17400AC516B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AE2DA37C2574C17400AC516B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AE2DA37E2574C17400AC516B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE2DA3852574CAFC00AC516B /* Brain of RPC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Brain of RPC.swift"; sourceTree = "<group>"; };
+		AE974B0A25788D7100B5A5DE /* READY?.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "READY?.png"; sourceTree = "<group>"; };
+		AE974B0F2578954300B5A5DE /* ready?!.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ready?!.png"; sourceTree = "<group>"; };
+		AE974B21257897DF00B5A5DE /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+		AE974B27257897EE00B5A5DE /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
+		AE974B2A2578983000B5A5DE /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3.png; sourceTree = "<group>"; };
+		AE974B362578AC3C00B5A5DE /* 종료!.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "종료!.png"; sourceTree = "<group>"; };
+		AE974B3D2578AED100B5A5DE /* ready.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ready.png; sourceTree = "<group>"; };
+		AE974B402578CE1600B5A5DE /* 경기천년제목OTF_Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "경기천년제목OTF_Medium.otf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +86,38 @@
 		AE2DA36F2574C17300AC516B /* Rock Paper Scissors */ = {
 			isa = PBXGroup;
 			children = (
+				AE974B432578CEE800B5A5DE /* file */,
+				AE974B3D2578AED100B5A5DE /* ready.png */,
+				AE974B21257897DF00B5A5DE /* 1.png */,
+				AE974B27257897EE00B5A5DE /* 2.png */,
+				AE974B2A2578983000B5A5DE /* 3.png */,
+				AE974B362578AC3C00B5A5DE /* 종료!.png */,
+				AE1DB31525796C9F005E4790 /* 너무 일찍 냈어.png */,
+				AE1DB31225796B47005E4790 /* 너무 늦게 냈어.png */,
+				AE1DB31825796CA7005E4790 /* 다시.png */,
 				AE2DA3702574C17300AC516B /* AppDelegate.swift */,
 				AE2DA3722574C17300AC516B /* SceneDelegate.swift */,
 				AE2DA3742574C17300AC516B /* ViewController.swift */,
+				AE1DB31C257990D1005E4790 /* MenuViewController.swift */,
+				AE2DA3852574CAFC00AC516B /* Brain of RPC.swift */,
 				AE2DA3762574C17300AC516B /* Main.storyboard */,
 				AE2DA3792574C17400AC516B /* Assets.xcassets */,
 				AE2DA37B2574C17400AC516B /* LaunchScreen.storyboard */,
 				AE2DA37E2574C17400AC516B /* Info.plist */,
 			);
 			path = "Rock Paper Scissors";
+			sourceTree = "<group>";
+		};
+		AE974B432578CEE800B5A5DE /* file */ = {
+			isa = PBXGroup;
+			children = (
+				AE974B0F2578954300B5A5DE /* ready?!.png */,
+				AE974B0A25788D7100B5A5DE /* READY?.png */,
+				AE974B402578CE1600B5A5DE /* 경기천년제목OTF_Medium.otf */,
+				AE1DB3092578CFA1005E4790 /* Bazzi OTF.otf */,
+				AE1DB30C2578CFF5005E4790 /* Recipekorea 레코체 FONT.otf */,
+			);
+			path = file;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,9 +177,22 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AE974B102578954300B5A5DE /* ready?!.png in Resources */,
+				AE974B3E2578AED100B5A5DE /* ready.png in Resources */,
+				AE974B412578CE1600B5A5DE /* 경기천년제목OTF_Medium.otf in Resources */,
 				AE2DA37D2574C17400AC516B /* LaunchScreen.storyboard in Resources */,
+				AE974B28257897EE00B5A5DE /* 2.png in Resources */,
+				AE1DB31625796CA0005E4790 /* 너무 일찍 냈어.png in Resources */,
+				AE1DB30A2578CFA1005E4790 /* Bazzi OTF.otf in Resources */,
+				AE974B2B2578983000B5A5DE /* 3.png in Resources */,
+				AE1DB31325796B47005E4790 /* 너무 늦게 냈어.png in Resources */,
+				AE974B0B25788D7100B5A5DE /* READY?.png in Resources */,
+				AE1DB30D2578CFF5005E4790 /* Recipekorea 레코체 FONT.otf in Resources */,
 				AE2DA37A2574C17400AC516B /* Assets.xcassets in Resources */,
+				AE974B372578AC3C00B5A5DE /* 종료!.png in Resources */,
+				AE1DB31925796CA7005E4790 /* 다시.png in Resources */,
 				AE2DA3782574C17300AC516B /* Main.storyboard in Resources */,
+				AE974B23257897E000B5A5DE /* 1.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,8 +204,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				AE2DA3752574C17300AC516B /* ViewController.swift in Sources */,
+				AE1DB31D257990D1005E4790 /* MenuViewController.swift in Sources */,
 				AE2DA3712574C17300AC516B /* AppDelegate.swift in Sources */,
 				AE2DA3732574C17300AC516B /* SceneDelegate.swift in Sources */,
+				AE2DA3862574CAFC00AC516B /* Brain of RPC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,6 +355,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T79FMP6Q2L;
 				INFOPLIST_FILE = "Rock Paper Scissors/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -305,6 +374,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T79FMP6Q2L;
 				INFOPLIST_FILE = "Rock Paper Scissors/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
